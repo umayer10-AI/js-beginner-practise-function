@@ -45,3 +45,9 @@ while(i<phones.length){
     i++;
 }
 console.log("While:",s2/phones.length);
+
+const phone = phones.find(p => p.brand === "Oppo");
+console.log(phone);
+
+const k = phones.findIndex(v => v.brand === 'Oppo');
+console.log(k);
