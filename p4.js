@@ -37,3 +37,11 @@ console.log(b);
 let s1=0;
 phones.forEach(v => s1 += v.price);
 console.log(s1/phones.length);
+
+let s2=0;
+let i=0;
+while(i<phones.length){
+    s2 += phones[i].price;
+    i++;
+}
+console.log("While:",s2/phones.length);
